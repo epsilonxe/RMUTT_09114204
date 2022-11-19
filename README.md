@@ -9,13 +9,9 @@
 รายวิชานี้ดำเนินการสอนในรูปแบบการบรรยาย ปฏิบัติการทางคอมพิวเตอร์ 
 อาจรวมถึงห้องเรียนออนไลน์หรือเป็นไปตามประกาศของทางมหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี 
 
-ห้องเรียนออนไลน์ Microsoft Teams
-
-| Section | Invitation Code | 
-|---------|-----------------|
-|     01  |  `y4v32u6`      | 
-
-กรุณากรอกรหัสการเข้าร่วมเพื่อเข้าใช้ห้องเรียนออนไลน์
+| Section | MS-Teams Invitation Code | Line Open Chat | 
+|---------|--------------------------|-----------|
+|   01    |           `y4v32u6`      |  [Click to join](https://line.me/ti/g2/p7uQ_jV_3HmC660CYdQvneFJa1SDyBDpW05_WQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default) |
 
 ## เวลาและสถานที่เรียน
 
@@ -44,24 +40,27 @@ Concepts of procedural and object-oriented programmings with Python, native data
 
 ## หัวข้อการบรรยาย
 
-|    | หัวข้อ | เอกสารประกอบการบรรยาย | เอกสารประกอบปฏิบัติการ |
-|----| -----|------------------|-------------|
-| A1  | Review of Procedural Programming in Python |  [Hello Python](./materials/hello-python.ipynb) <br> [Functions and Getting Help](./materials/functions-and-getting-helps.ipynb) <br> [Boolean and Conditions](./materials/boolean-and-conditions.ipynb) <br> [Lists](./materials/lists.ipynb) <br> [Loops and List Comprehensions](./materials/loops-and-list-comprehensions.ipynb) <br> [Strings and Dictionaries](./materials/strings-and-dictionaries.ipynb) <br> [Working with External Libraries](./materials/working-with-external-libraries.ipynb) | [Exercise 1.1](./materials/xxx.ipynb) <br> [Exercise 1.2](./materials/xxx.ipynb) <br> [Exercise 1.3](./materials/xxx.ipynb) <br> [Exercise 1.4](./materials/xxx.ipynb) <br> [Exercise 1.5](./materials/xxx.ipynb) <br> [Exercise 1.6](./materials/xxx.ipynb) <br> [Exercise 1.7](./materials/xxx.ipynb) |
-| B1 | Introduction to Object Oriented Programming |  |  |
-| B2 | Handling of Errors and Exceptions | | |
-| B3| Reading and Writing Files | | |
-| B4 | Application Testing in Python | | |
-| C1 | Python GUI Programming | | |
-| C2 | Array and Vectorized Computation | | |
-| C3 | Working with Dataframe | | |
-| C4 | Ploting and Visualization | | |
+|Week|        | หัวข้อ | เอกสารประกอบการบรรยาย/ปฏิบัติการ |
+|----|--------| -----|----------------------------|
+| 1-2   | A1  | Review of Procedural Programming in Python <br> ทบทวนพื้นฐานที่จำเป็น ในการเขียนโปรแกรมคอมพิวเตอร์แบบโพรซีเดอรัลด้วยภาษาโปรแกรมไพธอน |  [Download](./materials/a1.zip) |
+| 3-4 | B1 | Introduction to Object Oriented Programming <br> แนะนำการเขียนโปรแกรมคอมพิวเตอร์เชิงวัตถุด้วยภาษาโปรแกรมไพธอน |  |  
+| 5   | B2 | Handling of Errors and Exceptions <br> รับมือกับข้อผิดพลาด และแก้ไขข้อผิดพลาดในการเขียนโปรแกรมคอมพิวเตอร์ | | 
+| 6   | B3| Reading and Writing Files <br> เขียนโปรแกรมคอมพิวเตอร์เพื่อการอ่านและบันทึกไฟล์  | |
+| 7   | B4 | Code Testing in Python <br> ทดสอบความถูกต้องของชุดคำสั่งในโปรแกรมคอมพิวเตอร์ทั้งแบบปกติและการใช้เฟรมเวิร์ก| |
+| 8   | C1 | Python GUI Programming <br> เขียนส่วนติดต่อผู้ใช้แบบกราฟฟิกให้กับโปรแกรมคอมพิวเตอร์| |
+| 9   |    |  การสอบกลางภาค   |  |
+| 10-11  | C2 | Array and Vectorized Computation <br> แนะนำการใช้แพคเกจ numpy สำหรับการทำงานด้านอาเรย์หลายมิติ และการคำนวณแบบเวกเตอร์ | |
+| 12-13 | C3 | Working with Dataframe <br> แนะนำการใช้แพคเกจ pandas สำหรับการทำงานกับเฟรมข้อมูล | |
+| 14-15 | C4 | Ploting and Visualization <br> แนะนำการใช้แพคเกจสำหรับการวาดกราฟ และ แผนภาพแบบต่าง ๆ | |
+| 16    |    |  การนำเสนอโครงงาน  |  |
+| 17    |    |  การสอบปลายภาค |  |
 
 ## การวัดผลการเรียน
 คะแนนเต็ม 100 คะแนน โดยแบ่งออกเป็น
-- การสอบกลางภาค 30%
-- การสอบปลายภาค 30%
-- งานที่ได้รับมอบหมาย 20%
-- โครงงาน 20%
+- การสอบกลางภาค 25%
+- การสอบปลายภาค 25%
+- งานที่ได้รับมอบหมาย 25%
+- โครงงาน 25%
 
 หากนักศึกษาเข้าเรียนน้อยกว่า 80% ของเวลาเรียนทั้งหมด
 หรือได้คะแนนรวมน้อยกว่า 50% ของคะแนนเต็ม นักศึกษาจะไม่ผ่านในรายวิชานี้ และได้รับการบันทึกผลการเรียน F (เกรด 0.0) 
@@ -86,10 +85,7 @@ t-score = 50 + 10*(x - u)/s
 | B+ | 3.50 | [75, 80) |
 | A | 4.00 | [80, Inf) |
 
-
-
-
 ## เอกสารอ้างอิง
 - Mark Lutz. [Learning Python](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730), 5th Edition. O'Reilly Media, Inc. (2013).
-- W. McKinney. [Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662
+- Wes McKinney. [Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662
 ). O'Reilly Media, Inc. (2018)
