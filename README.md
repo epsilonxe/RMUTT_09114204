@@ -41,18 +41,18 @@ Concepts of procedural and object-oriented programmings with Python, native data
 
 ## หัวข้อการบรรยาย
 (A: Beginner/ B: Intermediate/ C: Advance)
-|Week|        | หัวข้อ | เอกสารประกอบการบรรยาย/ปฏิบัติการ |
+
+|Week| Level  | หัวข้อ | เอกสารประกอบการบรรยาย/ปฏิบัติการ |
 |----|--------| -----|----------------------------|
-| 1-2   | A  | Review of Procedural Programming in Python <br> ทบทวนพื้นฐานที่จำเป็น ในการเขียนโปรแกรมคอมพิวเตอร์แบบโพรซีเดอรัลด้วยภาษาโปรแกรมไพธอน |  [Download](./materials/a1.zip) |
-| 3-4 | B | Introduction to Object Oriented Programming <br> แนะนำการเขียนโปรแกรมคอมพิวเตอร์เชิงวัตถุด้วยภาษาโปรแกรมไพธอน |  |
-| 5   | B| Reading and Writing Files <br> เขียนโปรแกรมคอมพิวเตอร์เพื่อการอ่านและบันทึกไฟล์  | |
-| 6   | B | Handling of Errors and Exceptions <br> รับมือกับข้อผิดพลาด และแก้ไขข้อผิดพลาดในการเขียนโปรแกรมคอมพิวเตอร์ | | 
-| 7   | B | Code Testing in Python <br> ทดสอบความถูกต้องของชุดคำสั่งในโปรแกรมคอมพิวเตอร์ทั้งแบบปกติและการใช้เฟรมเวิร์ก| |
-| 8   | C | Python GUI Programming <br> เขียนส่วนติดต่อผู้ใช้แบบกราฟฟิกให้กับโปรแกรมคอมพิวเตอร์| |
+| 1-2   | A  | Review of Procedural Programming in Python <br> ทบทวนพื้นฐานที่จำเป็น ในการเขียนโปรแกรมคอมพิวเตอร์แบบโพรซีเดอรัลด้วยภาษาโปรแกรมไพธอน |  [Download](./materials/python.zip) |
+| 3-4 | B | Introduction to Object Oriented Programming <br> แนะนำการเขียนโปรแกรมคอมพิวเตอร์เชิงวัตถุด้วยภาษาโปรแกรมไพธอน | [Download](./materials/oop.zip) |
+| 5   | B| Reading and Writing Files <br> เขียนโปรแกรมคอมพิวเตอร์เพื่อการอ่านและบันทึกไฟล์  | [Download](./materials/file_io.zip) |
+| 6   | B | Handling of Errors and Exceptions <br> รับมือกับข้อผิดพลาด และแก้ไขข้อผิดพลาดในการเขียนโปรแกรมคอมพิวเตอร์ | [Download](./materials/exceptions.zip) |
+| 7-8   | C | Python GUI Programming <br> เขียนส่วนติดต่อผู้ใช้แบบกราฟฟิกให้กับโปรแกรมคอมพิวเตอร์| [Download](./materials/gui.zip) |
 | 9   |    |  การสอบกลางภาค   |  |
-| 10-11  | C | Array and Vectorized Computation <br> แนะนำการใช้แพคเกจ numpy สำหรับการทำงานด้านอาเรย์หลายมิติ และการคำนวณแบบเวกเตอร์ | |
-| 12-13 | C | Working with Dataframe <br> แนะนำการใช้แพคเกจ pandas สำหรับการทำงานกับเฟรมข้อมูล | |
-| 14-15 | C | Data Visualization <br> แนะนำการใช้แพคเกจสำหรับการวาดกราฟ และ แผนภาพแบบต่าง ๆ | |
+| 10-11  | C | Array and Vectorized Computation <br> แนะนำการใช้แพคเกจ numpy สำหรับการทำงานด้านอาเรย์หลายมิติ และการคำนวณแบบเวกเตอร์ | [Download](./materials/numpy.zip) |
+| 12-13 | C | Working with Dataframe <br> แนะนำการใช้แพคเกจ pandas สำหรับการทำงานกับเฟรมข้อมูล | [Download](./materials/pandas.zip) |
+| 14-15 | C | Data Visualization <br> แนะนำการใช้แพคเกจสำหรับการวาดกราฟ และ แผนภาพแบบต่าง ๆ | [Download](./materials/visual.zip) |
 | 16    |    |  การนำเสนอโครงงาน  |  |
 | 17    |    |  การสอบปลายภาค |  |
 
