@@ -46,9 +46,9 @@ Concepts of procedural and object-oriented programmings with Python, native data
 |----|--------| -----|----------------------------|
 | 1-2   | A  | Review of Procedural Programming in Python <br> ทบทวนพื้นฐานที่จำเป็น ในการเขียนโปรแกรมคอมพิวเตอร์แบบโพรซีเดอรัลด้วยภาษาโปรแกรมไพธอน |  [Download](./materials/topic_basic_python.zip) |
 | 3-4 | B | Introduction to Object Oriented Programming <br> แนะนำการเขียนโปรแกรมคอมพิวเตอร์เชิงวัตถุด้วยภาษาโปรแกรมไพธอน | [Download](./materials/topic_oop.zip) |
-| 5   | B| Reading and Writing Files <br> เขียนโปรแกรมคอมพิวเตอร์เพื่อการอ่านและบันทึกไฟล์  | [Download](./materials/file_io.zip) |
-| 6   | B | Handling of Errors and Exceptions <br> รับมือกับข้อผิดพลาด และแก้ไขข้อผิดพลาดในการเขียนโปรแกรมคอมพิวเตอร์ | [Download](./materials/exceptions.zip) |
-| 7-8   | C | Python GUI Programming <br> เขียนส่วนติดต่อผู้ใช้แบบกราฟฟิกให้กับโปรแกรมคอมพิวเตอร์| [Download](./materials/gui.zip) |
+| 5   | B| Reading and Writing Files <br> เขียนโปรแกรมคอมพิวเตอร์เพื่อการอ่านและบันทึกไฟล์  | [Download](./materials/topic_files_io.zip) |
+| 6   | B | Handling of Errors and Exceptions <br> รับมือกับข้อผิดพลาด และแก้ไขข้อผิดพลาดในการเขียนโปรแกรมคอมพิวเตอร์ | [Download](./materials/topic_exceptions.zip) |
+| 7-8   | C | Python GUI Programming <br> เขียนส่วนติดต่อผู้ใช้แบบกราฟฟิกให้กับโปรแกรมคอมพิวเตอร์| [Download](./materials/topic_gui.zip) |
 | 9   |    |  การสอบกลางภาค   |  |
 | 10-11  | C | Array and Vectorized Computation <br> แนะนำการใช้แพคเกจ numpy สำหรับการทำงานด้านอาเรย์หลายมิติ และการคำนวณแบบเวกเตอร์ | [Download](./materials/numpy.zip) |
 | 12-13 | C | Working with Dataframe <br> แนะนำการใช้แพคเกจ pandas สำหรับการทำงานกับเฟรมข้อมูล | [Download](./materials/pandas.zip) |
