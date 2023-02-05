@@ -50,7 +50,7 @@ Concepts of procedural and object-oriented programmings with Python, native data
 | 6   | B | Handling of Errors and Exceptions <br> รับมือกับข้อผิดพลาด และแก้ไขข้อผิดพลาดในการเขียนโปรแกรมคอมพิวเตอร์ | [Download](./materials/topic_errors_exceptions.zip) |
 | 7-8   | C | Python GUI Programming <br> เขียนส่วนติดต่อผู้ใช้แบบกราฟฟิกให้กับโปรแกรมคอมพิวเตอร์| [Download](./materials/topic_gui.zip) |
 | 9   |    |  การสอบกลางภาค   |  |
-| 10-11  | C | Array and Vectorized Computation <br> แนะนำการใช้แพคเกจ numpy สำหรับการทำงานด้านอาเรย์หลายมิติ และการคำนวณแบบเวกเตอร์ | [Download](./materials/numpy.zip) |
+| 10-11  | C | Array and Vectorized Computation <br> แนะนำการใช้แพคเกจ numpy สำหรับการทำงานด้านอาเรย์หลายมิติ และการคำนวณแบบเวกเตอร์ | [Download](./materials/topic_numpy.zip) |
 | 12-13 | C | Working with Dataframe <br> แนะนำการใช้แพคเกจ pandas สำหรับการทำงานกับเฟรมข้อมูล | [Download](./materials/pandas.zip) |
 | 14-15 | C | Data Visualization <br> แนะนำการใช้แพคเกจสำหรับการวาดกราฟ และ แผนภาพแบบต่าง ๆ | [Download](./materials/visual.zip) |
 | 16    |    |  การนำเสนอโครงงาน  |  |
