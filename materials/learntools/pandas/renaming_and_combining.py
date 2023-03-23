@@ -2,7 +2,7 @@ import pandas as pd
 
 from learntools.core import *
 
-reviews = pd.read_csv("../input/wine-reviews/winemag-data-130k-v2.csv", index_col=0)
+reviews = pd.read_csv("../../pandas/datasets/winemag-data-130k-v2.csv", index_col=0)
 
 # Load some other datasets used in this exercise
 gaming_products = pd.read_csv("../input/things-on-reddit/top-things/top-things/reddits/g/gaming.csv")

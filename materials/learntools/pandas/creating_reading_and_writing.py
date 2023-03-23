@@ -51,9 +51,9 @@ class ReadWineCsv(EqualityCheckProblem):
     _hint = ("Note that the csv file begins with an unnamed column of increasing integers. "
             "We want this to be used as the index. Check out the description of the `index_col` "
             "keyword argument in [the docs for `read_csv`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html).")
-    _expected = pd.read_csv('../input/wine-reviews/winemag-data_first150k.csv', index_col=0)
+    _expected = pd.read_csv('../../pandas/datasets/winemag-data_first150k.csv', index_col=0)
     _solution = CS(
-    "reviews = pd.read_csv('../input/wine-reviews/winemag-data_first150k.csv', index_col=0)"
+    "reviews = pd.read_csv('../../pandas/datasets/winemag-data_first150k.csv', index_col=0)"
     )
 
 class SaveAnimalsCsv(CodingProblem):
@@ -70,22 +70,22 @@ class SaveAnimalsCsv(CodingProblem):
         assert_df_equals(actual, expected, 
             name="Dataframe loaded from `cows_and_goats.csv`")
 
-class ReadPitchforkSql(EqualityCheckProblem):
-    _var = 'music_reviews'
-    # TODO: Is loading expected values expensive here? May want to do it on-demand 
-    # when check is first called, rather than on import
-    conn = sqlite3.connect("../input/pitchfork-data/database.sqlite")
-    _expected = (
-        pd.read_sql_query("SELECT * FROM artists", conn),
-    )
-    _hint = 'After importing `sqlite3`, you first need to create a connector.  Then, you can supply an SQL statement to `pd.read_sql_query` to pull all of the data from the `artists` table.  For more information, check out the [Creating, Reading, and Writing Reference](https://www.kaggle.com/residentmario/creating-reading-and-writing-reference).'
-    conn.close()
+# class ReadPitchforkSql(EqualityCheckProblem):
+#     _var = 'music_reviews'
+#     # TODO: Is loading expected values expensive here? May want to do it on-demand 
+#     # when check is first called, rather than on import
+#     conn = sqlite3.connect("../../datasets/pitchfork.sqlite")
+#     _expected = (
+#         pd.read_sql_query("SELECT * FROM artists", conn),
+#     )
+#     _hint = 'After importing `sqlite3`, you first need to create a connector.  Then, you can supply an SQL statement to `pd.read_sql_query` to pull all of the data from the `artists` table.  For more information, check out the [Creating, Reading, and Writing Reference](https://www.kaggle.com/residentmario/creating-reading-and-writing-reference).'
+#     conn.close()
 
-    _solution = CS("""\
-import sqlite3
-conn = sqlite3.connect("../input/pitchfork-data/database.sqlite")
+#     _solution = CS("""\
+# import sqlite3
+# conn = sqlite3.connect("../../datasets/pitchfork.sqlite")
 
-music_reviews = pd.read_sql_query("SELECT * FROM artists", conn)""")
+# music_reviews = pd.read_sql_query("SELECT * FROM artists", conn)""")
 
 
 qvars = bind_exercises(globals(), [
@@ -94,7 +94,7 @@ qvars = bind_exercises(globals(), [
     RecipeSeriesCreation,
     ReadWineCsv,
     SaveAnimalsCsv,
-    ReadPitchforkSql,
+    # ReadPitchforkSql,
     ],
     )
 __all__ = list(qvars)
